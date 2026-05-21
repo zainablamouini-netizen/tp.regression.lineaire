@@ -82,9 +82,6 @@ Try adding this line at the beginning of the script:
 License
 Free to use for educational purposes.
 
-Author
-Zineb Lamouini
-
 Resources
 Scikit-learn Documentation
 NumPy Documentation
