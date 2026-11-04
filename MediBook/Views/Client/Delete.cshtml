@@ -1,0 +1,14 @@
+@model MediBook.Models.Client
+
+@{
+    ViewData["Title"] = "Supprimer un client";
+}
+
+<h1>Supprimer un client</h1>
+<p>Confirmer la suppression de @Model.FirstName @Model.LastName ?</p>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Supprimer</button>
+    <a asp-action="Index">Annuler</a>
+</form>
